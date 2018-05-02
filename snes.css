@@ -144,39 +144,6 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .y{
     top: 71px;
 }
-/* Analog sticks follow the same principles as the triggers in terms of positioning
-Note that the rotation of the sticks in hard coded with javascript, so it applies 
-the CSS inline. */
-.custom .sticks{
-    position: absolute;
-    width: 231px;
-    height: 231px;
-    top: 100px;
-    left: 90.5px;
-}
-.custom .sticks::after{
-    content: '';
-    position: absolute;
-    width: 231px;
-    height: 231px;
-    background: url(drawing/drawing.svg);
-    background-position-x: -1357px;
-}
-.custom .stick{
-    position: absolute;
-    background-color: white;
-    width: 82px;
-    height: 82px;
-    transform: rotateX(0deg) !important;
-    transform: rotateY(0deg) !important;
-}
-.custom .stick.left{
-    top: 74px;
-    left: 75px;
-}
-.custom .stick.right{
-    display: none;
-}
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
