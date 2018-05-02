@@ -144,6 +144,16 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .y{
     top: 71px;
 }
+
+/* Positioning and size of the container for the face buttons */
+.custom .abxy{
+    position: absolute;
+    width: 259px;
+    height: 218px;
+    top: 105px;
+    left: 633px;
+}
+
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
